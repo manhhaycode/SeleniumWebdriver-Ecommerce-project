@@ -15,7 +15,7 @@ public class TestCase5 {
             driver.get("http://live.techpanda.org/");
             RegisterPage registerPage = new RegisterPage(driver);
             AddWishList wishList = new AddWishList(driver);
-            registerPage.register("Manh", "Nguyen", "xacca13@gmail.com", "12345678", "12345678");
+            registerPage.register("Manh", "Nguyen", "7M@gmail.com", "12345678", "12345678");
             wishList.wishList("manhnvse173470@fpt.edu.vn", "LG LCD");
         } catch (Exception e) {
             e.printStackTrace();

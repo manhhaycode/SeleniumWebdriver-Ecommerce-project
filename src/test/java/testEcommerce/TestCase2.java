@@ -22,7 +22,7 @@ public class TestCase2 {
             WebElement clickMobileTab = driver.findElement(mobileTab);
             Actions actions = new Actions(driver);
             actions.click(clickMobileTab).perform();
-            By sonyXperiaPrice = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/ul[1]/li[2]/div[1]/div[1]/span[1]/span[1]");
+            By sonyXperiaPrice = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/ul[1]/li[3]/a[1]/img[1]");
             WebElement clickSonyXperiaProduct = driver.findElement(sonyXperiaPrice);
             // write test case for check sony xperia price is $100 with ExpectedConditions
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
